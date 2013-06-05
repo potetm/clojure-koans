@@ -23,7 +23,7 @@
   (= __ (#(* 15 %2) 1 2))
 
   "One function can beget another"
-  (= 9 ((fn [x y] (+ x y)) 4 5))
+  (= 9 (((fn [] +)) 4 5))
 
   "Functions can also take other functions as input"
   (= 20 ((fn [f] (f 4 5))
