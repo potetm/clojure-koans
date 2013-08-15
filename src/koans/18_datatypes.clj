@@ -16,8 +16,7 @@
   Award
   (present [this recipient]
     (print (str "You're really the "
-                (.category this) ", "
-                recipient "... sorry."))))
+                (.category this) ", " recipient "... sorry."))))
 
 (meditations
   "Holding records is meaningful only when the record is worthy of you"
